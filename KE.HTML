@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="N.css">
+</head>
+<body>
+    <div class="container">
+        <h1><u>NTAGOZERA MANAGEMENT SYSTEM.</u></h1>
+                <br>
+                <br>
+                <br>
+        
+        <!-- Form to add new users -->
+        <div class="form-container">
+            <input type="text" id="name" placeholder="Enter Name" required>
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <input type="text" id="phone" placeholder="Enter Phone Number" required>
+            <button onclick="addUser()">Add User</button>
+        </div>
+
+        <h2><u>WORKS LIST.</u></h2>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- User rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="VI.JS"></script>
+</body>
+</html>
